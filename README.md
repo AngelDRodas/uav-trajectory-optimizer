@@ -14,6 +14,20 @@ This project implements an optimal control solver for a UAV traveling through a 
 - Visualizations of trajectories and control inputs
 - Path finding for seed path generation
 
+## Visualizations
+
+### 1. Seed Path (RRT)
+The initial path generated using a Rapidly-Exploring Random Tree (RRT) algorithm.
+![UAV Path](images/uav_path.png)
+
+### 2. Optimized Trajectory
+Final trajectory after solving the optimal control problem using trapezoidal collocation and `fmincon`.
+![Optimized UAV Trajectory](images/optimized_uav_trajectory.png)
+
+### 3. State & Control Profiles
+Position, velocity, and heading profiles along the optimized path.
+![State and Control Profiles](images/state_control_profiles.png)
+
 ## How to run
 1. Open `solve_uav_ocp_trapezoidal_complex.m` in MATLAB.
 2. Run the script.
