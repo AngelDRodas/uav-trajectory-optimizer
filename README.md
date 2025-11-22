@@ -30,6 +30,6 @@ Position, velocity, and heading profiles along the optimized path.
 
 
 ## How to run
-1. Open `solve_uav_ocp_trapezoidal_complex.m` in MATLAB.
+1. Open `solve_uav_ocp_trapezoidal_complex.mlx` in MATLAB.
 2. Run the script.
 3. Plots of the trajectory and control histories will appear automatically.
