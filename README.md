@@ -5,12 +5,14 @@ This project implements an optimal control solver for a UAV traveling through a 
 ## Tech stack
 - MATLAB
 - Trapezoidal collocation
+- RRT Path Finder
 - Nonlinear optimization (fmincon)
 
 ## Features
 - Obstacle avoidance with circular no-fly zones
 - Smooth heading and speed profiles
 - Visualizations of trajectories and control inputs
+- Path finding for seed path generation
 
 ## How to run
 1. Open `solve_uav_ocp_trapezoidal_complex.m` in MATLAB.
